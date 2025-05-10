@@ -1,0 +1,36 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.65:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.65:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.65 - - [30/Apr/2025 22:06:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.65 - - [30/Apr/2025 22:06:32] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.65 - - [30/Apr/2025 22:06:32] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:root:list index out of range
+INFO:werkzeug:192.168.1.65 - - [30/Apr/2025 22:09:20] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.65:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.65 - - [30/Apr/2025 22:12:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.65 - - [30/Apr/2025 22:12:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.65 - - [30/Apr/2025 22:12:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:HTTP Error 429: Too Many Requests
+INFO:werkzeug:192.168.1.65 - - [30/Apr/2025 22:12:06] "POST /review HTTP/1.1" 200 -
+INFO:root:list index out of range
+INFO:root:cannot access local variable 'custComment' where it is not associated with a value
+INFO:werkzeug:192.168.1.65 - - [30/Apr/2025 22:32:22] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.65:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:list index out of range
+INFO:root:cannot access local variable 'custComment' where it is not associated with a value
+INFO:werkzeug:192.168.1.65 - - [30/Apr/2025 22:34:22] "POST /review HTTP/1.1" 200 -
